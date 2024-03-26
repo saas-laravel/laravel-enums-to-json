@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "name": "saas-laravel/laravel-enums-to-json",
     "description": "This package generates a json file off of values from enum",
     "keywords": [
