@@ -9,13 +9,13 @@ If you use Laravel as a backend for a frontend framework like Nuxt or Next, and 
 You can install the package via composer:
 
 ```bash
-composer require przemyslaw-przylucki/laravel-attributed-enums
+composer require przemyslaw-przylucki/saas-laravel
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-attributed-enums-config"
+php artisan vendor:publish --tag="laravel-enums-to-json"
 ```
 
 This is the contents of the published config file:

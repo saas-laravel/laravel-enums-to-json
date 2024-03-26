@@ -58,6 +58,10 @@ class LaravelEnumsToJsonCommand extends Command
     {
         return collect($enum::cases())
             ->map(function ($el) {
+                if (method_exists($el, 'toJson')) {
+                    return $el->toJson();
+                }
+
                 return [
                     'label' => $el->name,
                     'value' => $el->value,
