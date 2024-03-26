@@ -44,7 +44,7 @@ Example usage:
 
 namespace App\Enums;
 
-use SaasLaravel\LaravelEnumsToJson\Attributes\EnumToJson;
+use SaasLaravel\LaravelEnumsToJson\Attributes\EnumToJson; 
 
 #[EnumToJson] //add attribute
 enum CastType: int
