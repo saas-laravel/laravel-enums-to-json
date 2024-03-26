@@ -10,4 +10,6 @@ return [
 
     // Folder where the json files will be generated.
     'path' => '/shared',
+
+    'format_label' => true,
 ];

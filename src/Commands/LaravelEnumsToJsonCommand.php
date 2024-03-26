@@ -63,7 +63,9 @@ class LaravelEnumsToJsonCommand extends Command
                 }
 
                 return [
-                    'label' => $el->name,
+                    'label' => config('enums-to-json.format_label')
+                        ? implode(' ', array_filter(preg_split('/(?=[A-Z])/', $el->name)))
+                        : $el->name,
                     'value' => $el->value,
                 ];
             });
