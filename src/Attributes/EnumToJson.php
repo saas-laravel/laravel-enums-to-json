@@ -4,7 +4,7 @@ namespace SaasLaravel\LaravelEnumsToJson\Attributes;
 
 use Attribute;
 
-#[Attribute]
+#[Attribute(Attribute::TARGET_CLASS)]
 class EnumToJson
 {
 

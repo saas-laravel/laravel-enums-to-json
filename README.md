@@ -9,7 +9,7 @@ If you use Laravel as a backend for a frontend framework like Nuxt or Next, and 
 You can install the package via composer:
 
 ```bash
-composer require przemyslaw-przylucki/saas-laravel
+composer require saas-laravel/laravel-enums-to-json
 ```
 
 You can publish the config file with:
@@ -64,7 +64,7 @@ enum CastType: int
 Then you'd run a command to generate the json files.
 
 ```shell
-php artisan enum-to-json:generate:generate
+php artisan enum-to-json:generate
 ```
 
 ### Customizing the name
